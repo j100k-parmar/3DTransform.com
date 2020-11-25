@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: lightgreen;
+    
+    margin-left: 30px;
+}
+.box1:hover{
+    width: 500px;
+    transform: rotateX(180deg);
+    transition: width 2s;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(209, 209, 43);
+    margin-left: 30px;
+}
+.box2:hover{
+    transform: rotateY(180deg);
+    width: 500px;
+    height: 500px;
+    transition: width 2s,height 3s, tranform 2s;
+}
+
+.box3{
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    margin-left: 30px;
+}
+.box3:hover{
+    transform: rotateZ(180deg);
+}
+.box4{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin-left: 30px;
+}
+.box4:hover{
+    width: 500px;
+    transition-timing-function:ease;
+}
+.box5{
+    width: 300px;
+    height: 300px;
+    background-color:black;
+    margin-left: 30px;
+}
+.box5:hover{
+    width: 500px;
+    transition-timing-function:ease-in;
+}
+.box6{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    margin-left: 30px;
+}
+.box6:hover{
+    width: 500px;
+    transition-timing-function:ease-out;
+}
+.box7{
+    width: 300px;
+    height: 300px;
+    background-color:orange;
+    margin-left: 30px;
+}
+.box7:hover{
+    width: 500px;
+    transition-timing-function:ease-in-out;
+}
+.box8{
+    width: 300px;
+    height: 300px;
+    background-color:green;
+    margin-left: 30px;
+}
+.box8:hover{
+    width: 500px;
+    transition-timing-function:linear;
+}
+
